@@ -177,5 +177,5 @@ export function useSchemaOrg(input?: Arrayable<any>): any {
         nodes: input,
       },
     ],
-  }, { mode: isSPA ? 'all' : 'server' })
+  })
 }
